@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import MedicalTreatments from './MedicalTreatments';
 
-function App(){
+function TaskOne(){
   return(
     <div>
     < MedicalTreatments treatId = 'blahblah' treatCourseId ='hdhdhd' />
@@ -13,7 +13,7 @@ function App(){
 export default App;
 
 ReactDOM.render (
-<App />,
+<TaskOne />,
 document.getElementById('root')
 );
 

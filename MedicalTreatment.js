@@ -6,7 +6,7 @@ function Treatments (prop){
       <div>
         <ul>Treatemnts: treatId = {prop.treatId} ,treatCourseId =
      {prop.treatCourseId}, type = {prop.type}, category ={prop.category},
-      name = {prop.name }, startDate = {prop.startDate};
+      name = {prop.name }, startDate = {prop.startDate}; </ul>
   );
   }
   

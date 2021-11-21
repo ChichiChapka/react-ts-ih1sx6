@@ -6,7 +6,8 @@ import Treatments from '/.MedicalTreatment';
 function App(){
   return(
     <div>
-    < Treatments treatId = 'blahblah'/>
+    < Treatments treatId = 'blahblah' treatCourseId ='hdhdhd' />#
+    < Treatments treatId = 'jjhiohi' treatCourseId ='hiohioi'/>
      </div>
   );
 }

@@ -10,7 +10,7 @@ function App(){
      </div>
   );
 }
-
+export default App;
 
 ReactDOM.render (
 <App />,

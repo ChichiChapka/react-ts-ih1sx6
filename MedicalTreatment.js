@@ -10,5 +10,6 @@ function Treatments (prop){
       </div>
   );
   }
+  export default Treatments;
   
 

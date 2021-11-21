@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Treatments from './MedicalTreatment';
-
+import Treatments from './MedicalTreatments';
 
 function App(){
   return(
@@ -13,6 +12,11 @@ function App(){
 }
 export default App;
 
-ReactDOM.render (treatments, getDocumentById ('app'));
+ReactDOM.render (<App />,
+document.getElementById ('root')
+);
+
+
+
 
 
